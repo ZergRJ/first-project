@@ -7,7 +7,7 @@
 }
 
 .menu-principal img {
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 .menu-principal ul {
@@ -20,7 +20,7 @@
 
 .menu-principal li {
   float: right; /* Alinha os itens horizontalmente */
-  margin-right: 30px;
+  margin-right: 10px;
 }
 
 .menu-principal li a {
@@ -60,7 +60,7 @@
 }
 
 .landing {
-  background-image: url("/imagens/projeto.jpeg");
+  background-image: url("/imagens/projeto.2.jpg");
   background-size: cover;
   height: calc(100vh - 50px);
   position: relative;
@@ -101,9 +101,11 @@ i {
 
 .services {
   text-align: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
 }
 
 img {
   box-shadow: 1px 1px 10px 2px black;
-  margin-tp: -50px;
 }
