@@ -20,7 +20,6 @@
 
 .menu-principal li {
   float: right; /* Alinha os itens horizontalmente */
-  margin-right: 10px;
 }
 
 .menu-principal li a {
@@ -80,18 +79,16 @@
 }
 
 .wrapper {
-  display: flex;
-  justify-content: center; /* centraliza o conjunto */
-  gap: 15px;
+  text-align: center;
+  gap: 30px;
 }
 
 .container {
   margin-top: 50px;
-  padding: 20px;
-  height: 400px;
+  padding: 30px;
+  height: 200px;
   width: 300px;
   display: inline-block;
-  vertical-align: top; /* 👈 ISSO RESOLVE */
   text-align: center;
 }
 
@@ -101,9 +98,12 @@ i {
 
 .services {
   text-align: center;
-  justify-content: center;
-  gap: 30px;
-  padding: 40px 20px;
+  gap: 15px;
+}
+
+.service {
+  text-align: center;
+  margin-top: 100px;
 }
 
 img {
