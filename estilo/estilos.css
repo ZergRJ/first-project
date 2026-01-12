@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-principal img {
+    margin-left: 50px;
+}
+
+.menu-principal ul {
+  list-style-type: none; /* Remove as marcas de lista (bullets) */
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  overflow: hidden;
+}
+
+.menu-principal li {
+  float: right; /* Alinha os itens horizontalmente */
+  margin-right: 30px;
+}
+
+.menu-principal li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu-principal li a:hover {
+  background-color: #111;
+}
+
+/* Esconde o submenu por padrão */
+.submenu {
+  display: none;
+  position: absolute; /* Posicionamento absoluto em relação ao item pai (.menu-dropdown) */
+  background-color: #444;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.submenu li {
+  float: none; /* Faz os itens do submenu ficarem em coluna */
+}
+
+.submenu li a {
+  padding: 12px 16px;
+  text-align: left;
+}
+
+/* Mostra o submenu quando o mouse passa sobre o item pai */
+.menu-dropdown:hover .submenu {
+  display: block;
+}
+
+.landing {
+  background-image: url("/imagens/projeto.jpeg");
+  background-size: cover;
+  height: calc(100vh - 50px);
+  position: relative;
+  box-shadow: 0px 0px 10px 0px  black;
+}
+
+.texto-intro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  width: 320px;
+  max-width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center; /* centraliza o conjunto */
+  gap: 15px;
+}
+
+.container {
+  margin-top: 50px;
+  padding: 20px;
+  height: 400px;
+  width: 300px;
+  display: inline-block;
+  vertical-align: top; /* 👈 ISSO RESOLVE */
+  text-align: center;
+}
+
+i {
+  font-size: 40px;
+}
+
+.services {
+  text-align: center;
+}
+
+img {
+  box-shadow: 1px 1px 10px 2px black;
+  margin-tp: -50px;
+}
