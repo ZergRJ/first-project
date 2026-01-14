@@ -59,7 +59,7 @@
 }
 
 .landing {
-  background-image: url("/imagens/projeto.2.jpg");
+  background-image: url("../imagens/projeto.2.jpg");
   background-size: cover;
   height: calc(100vh - 50px);
   position: relative;
@@ -80,7 +80,6 @@
 
 .wrapper {
   text-align: center;
-  gap: 30px;
 }
 
 .container {
@@ -98,7 +97,6 @@ i {
 
 .services {
   text-align: center;
-  gap: 15px;
 }
 
 .service {
@@ -108,4 +106,28 @@ i {
 
 img {
   box-shadow: 1px 1px 10px 2px black;
+}
+
+.about {
+  text-align: center;
+}
+
+.about-me {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.container2 {
+  padding: 30px;
+  max-height: 200px;
+  max-width: 700px;
+  display: inline-block;
+  text-align: left;
+  background-color: aliceblue;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
 }
